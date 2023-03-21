@@ -1,42 +1,11 @@
-# Project 3: Identity Server Part II
+# Project 3: Identity Server
 
 CS455 Distributed Systems Spring 2022
 
-Team 17 - Anna Rift and Logan Hurd
+Team: Anna Rift and Logan Hurd
 
-## Manifest:
-
-
-## Building:
-
-
-## Running the server:
-
-### Manually
-
-Starting in the `src` folder, type:
-
-    java IdServer --numport <port#> [--verbose] [ReplicaAddresses]
-
-## Running the client:
-
-The client runs as a one-shot that executes a single query on the server.
-
-Starting in the src folder, type:
-
-	java IdClient --server <serverhosts> --numport <port#> <query>
-
-### Queries:
-
-
-## How we tested it:
-
-
-## Observations/Reflections:
-
-
-## Work division:
-
-
-## Demo video:
+This project is a distributed identity server.
+It contains a provided makefile and dockerfile.
+Further description of the project can be found
+in p2.pdf and p3.pdf.
 
